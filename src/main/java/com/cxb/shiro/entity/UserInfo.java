@@ -107,8 +107,8 @@ public class UserInfo implements Serializable {
     public String getCredentialsSalt() {
         //重新对盐重新进行了定义，用户名+salt，这样就更加不容易被破解
         //return this.username + this.salt;
-        //为了测试方便，我们简单定义盐为Mark
-        String salt = "Mark";
+        //为了测试方便，我们简单定义盐为frank
+        String salt = "frank";
         return salt;
     }
 }
